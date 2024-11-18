@@ -1,0 +1,12 @@
+@import "reset.css";
+
+
+.header{
+  /* Layout Properties */
+top: 0px;
+left: 0px;
+width: 1903px;
+height: 60px;
+/* UI Properties */
+background: #343A40 0% 0% no-repeat padding-box;
+opacity: 1;}

@@ -1,0 +1,50 @@
+
+/* Style the tab */
+/* Select Tab 모니터링모드 / 리플레이 모드 */
+.tab {
+    padding-left: 5px;
+    padding-top : 9px;
+    overflow: hidden;
+    border: none;
+    background-color: #f0f0f0;
+    width: 1898px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    width: 160px;
+    height: 5vh;
+    color: #7E84A3;
+    background-color: #e4e4e4;
+    letter-spacing: -0.32px;
+    font: normal normal bold 16px/24px Spoqa Han Sans Neo;
+    float: left;
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: 0.3s;
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #FFFFFF;
+    color: #507CF3;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #FFFFFF;
+    color: #507CF3;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: grid;
+    width: 1903px;
+    height: 637px;
+    grid-template-columns: auto auto;
+}
+

@@ -1,0 +1,228 @@
+@import "reset.css";
+
+.monitoring-mode {
+    top: 111px;
+    left: 0px;
+    width: 328px;
+    height: 637px;
+    opacity: 1;
+    background: rgb(255, 255, 255) 0% 0% no-repeat padding-box;
+    box-sizing: border-box;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.monitoring-mode div {
+    width: 285px;
+}
+#select-client > select {
+    border: 1px solid #d7dbec;
+    /* 변경 */
+}
+.monitoring-mode div select {
+    width: 100%;
+    border: 1px solid #d7dbec;
+    /* 변경 */
+}
+
+.monitoring-mode div input {
+    width: 98.5%;
+}
+
+.monitoring-mode .searchveh {
+    margin-right: auto;
+}
+
+.replay-mode {
+    top: 111px;
+    left: 0px;
+    width: 325px;
+    height: 638px;
+    opacity: 1;
+    background: rgb(255, 255, 255) 0% 0% no-repeat padding-box;
+    box-sizing: border-box;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    border-bottom: 1px solid #ccc;
+}
+
+.searchveh {
+    /* Layout Properties */
+    top: 137px;
+    left: 20px;
+    width: 285px;
+    height: 25px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 20px/25px Spoqa Han Sans Neo;
+    letter-spacing: -0.4px;
+    color: #292929;
+    opacity: 1;
+    padding-left: 20px;
+    padding-top: 23px;
+    padding-bottom: 10px;
+}
+
+.vnum {
+    width: 279.67px;
+    height: 43.67px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* margin-bottom: 23px; */
+    flex: 1;
+}
+
+#search-carNum {
+    display: flex;
+    padding-top: 8px;
+    align-items: center;
+}
+
+.label-with-button {
+    display: flex;
+    align-items: center;
+    width: 283px;
+    margin-top: 0px;
+    border: 1px solid #d7dbec;
+    border-radius: 4px;
+    text-align: left;
+    margin-bottom: 23px;
+
+}
+
+.vnum::placeholder {
+    text-align: left;
+}
+
+#search-button {
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    background-image: url("../pictures/glass.png");
+    background-size: cover;
+    background-position: center;
+    /* 이미지 크기 조절 */
+    background-repeat: no-repeat;
+    /* 이미지 반복 제거 */
+    margin-right: 17px;
+}
+
+.re-client {
+    width: 285px;
+    height: 47px;
+    margin-top: 25px;
+}
+
+.re-client2 {
+    width: 285px;
+    height: 47px;
+    margin-top: 10px;
+    text-align: left;
+    border: 1px solid #d7dbec;
+
+}
+
+.box2426 {
+    /* Layout Properties */
+    top: 0px;
+    left: 20px;
+    width: 285px;
+    height: 33px;
+    /* UI Properties */
+    background: #f5f5f5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: sticky;
+    text-align: center;
+}
+
+.box3894 {
+    /* Layout Properties */
+    top: 336px;
+    left: 20px;
+    width: 285px;
+    height: 452px;
+
+    /* UI Properties */
+    opacity: 1;
+    overflow-y: auto;
+    font-size: 15px;
+    border: 1px solid #999;
+    font: normal normal medium 14px/18px Spoqa Han Sans Neo;
+}
+
+.box3894 td,
+.box3894 th {
+    height: 20px;
+    border-bottom: 2px solid #bfc5e0;
+    padding: 5px 10px 5px 10px;
+    font-size: 10px;
+    display: table-cell;
+    text-align: center;
+    font: normal normal bold 16px/40px Spoqa Han Sans Neo;
+}
+
+.box3894 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 285px;
+    height: 47px;
+    padding: 10px;
+    border: 1px solid #999;
+    background-color: #5f55e3c7;
+    font-family: inherit;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: white;
+    cursor: pointer;
+}
+
+.emptysearch {
+    width: 280px;
+    min-height: 20px;
+    background-color: #ffffff;
+    color: #fff;
+    display: block;
+}
+
+#monitor-table > tr.sendVrn-item.selected {
+    /* background-color: #e4e4e4; 배경 색상 변경 */
+    border: 3px solid #292929;
+}
+
+#monitor-table > tr.sendVrn-item {
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#monitor-table > tr.sendVrn-item:hover {
+    cursor: pointer; /* 마우스 커서 모양 변경 */
+    /* background-color: lightgray; 배경 색상 변경 */
+    /* border: 1px solid darkgray; 테두리 추가 */
+    border: 3px solid rgb(171, 171, 171);
+}
+
+.bus-size{
+    width:23px;
+    height:35px;
+    margin:-6px;
+}

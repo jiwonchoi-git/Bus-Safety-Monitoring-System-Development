@@ -1,0 +1,184 @@
+@import "reset.css";
+
+.shape {
+    /* Layout Properties */
+    top: 746px;
+    left: 0px;
+    width: 1800px;
+    height: 334px;
+    border: #292929;
+    border-radius: 4px;
+    /* UI Properties */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.group5829 {
+    /* Layout Properties */
+    top: 752px;
+    left: 20px;
+    width: 1903px;
+    height: 317px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.trip-date-form {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 85px;
+}
+
+.trip-download {
+    width: 46px;
+    height: 46px;
+    border: 1px solid #d7dbec;
+    /* 테두리 두께와 스타일 지정 */
+    border-radius: 5px;
+}
+
+.trip {
+    /* 트립조회 */
+    top: 776px;
+    left: 20px;
+    width: 90px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    /* margin-left: 10px; */
+    text-align: center;
+    font: normal normal bold 20px/25px Spoqa Han Sans Neo;
+    letter-spacing: -0.4px;
+    color: #292929;
+    opacity: 1;
+    display: inline-block;
+}
+
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2c3e50;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #ffffff;
+    font: normal normal medium 16px/21px Spoqa Han Sans Neo;
+    font-size: 18px;
+    border: 1px solid #ecf0f1;
+    background: #ffffff;
+    margin-right: 10px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+
+input[type="date"],
+focus {
+    width: 158px;
+    height: 47px;
+    color: #507cf3;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 4px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    text-align: center;
+}
+
+.emptytrip {
+    width: 1400px;
+    min-height: 45px;
+    background-color: #ffffff;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+}
+
+.line545 {
+    margin-left: 20px;
+    width: 1863px;
+    height: 0px;
+    border: 1px solid #7e84a3;
+    opacity: 0.3;
+}
+
+.group5827 {
+    /* table container */
+    top: 753px;
+    left: 20px;
+    width: 1880px;
+    height: 247px;
+    opacity: 1;
+    /* display: block; */
+    padding-left: 20px;
+    font: normal normal bold 16px/24px Spoqa Han Sans Neo;
+    letter-spacing: -0.28px;
+    color: #292929;
+    overflow-y: auto;
+}
+
+.group5827 table {
+    border-collapse: collapse;
+    width: 1863px;
+}
+
+.box2429 {
+    /* thead */
+    /* top: 823px; */
+    top: 0;
+    left: 20px;
+    background: #f5f5f5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: table-header-group;
+    position: sticky;
+    border-top: 2px #ffffff;
+    
+}
+
+.group5827 td,
+.group5827 th {
+    height: 20px;
+    border-bottom: 2px solid #bfc5e0;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    display: table-cell;
+}
+
+.group5827 th {
+    min-width: 10px;
+}
+
+#trip-table > tr.trip-table-item {
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#trip-table > tr.trip-table-item:hover {
+    cursor: pointer; /* 마우스 커서 모양 변경 */
+    border: 3px solid rgb(171, 171, 171); /* 테두리 추가 */
+}
+
+
+#trip-table > tr.trip-table-item.selected {
+    border: 3px solid #292929;
+}
+
+.red-table{
+    border-color: red;
+}
+#trip-table > tr.red-table.trip-table-item{
+    background-color: rgb(243, 99, 199);
+}
